@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎄 我的圣诞灯串</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <h1>✨ 圣诞快乐 ✨</h1>
+    <!-- 灯泡容器 -->
+    <div class="container" id="lightContainer">
+        <div class="bulb" data-color="#FF4136"></div>
+        <div class="bulb" data-color="#2ECC40"></div> 
+        <div class="bulb" data-color="#0074D9"></div> 
+        <div class="bulb" data-color="#FFDC00"></div> 
+        <div class="bulb" data-color="#B10DC9"></div> 
+        <div class="bulb" data-color="#FF851B"></div>
+    </div>
+    <!-- 控制按钮 -->
+     <div class="controls">
+        <button id="btn-all-on">💡 全部点亮</button>
+        <button id="btn-all-off">🦋 全部熄灭</button>
+        <button id="btn-random">🌹 随机点亮</button>
+        <button id="btn-mode">🌊 流水模式</button>
+    </div>
+    <p class="info">💡 点击单个灯泡可切换亮灭 | 当前模式: <span id="modeDisplay">静态</span></p>
+    <script src="script.js"></script>
+</body>
+</html>
